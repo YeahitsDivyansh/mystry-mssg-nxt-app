@@ -24,7 +24,7 @@ export interface User extends Document {
     username: string;  // The user's username
     email: string;  // The user's email address
     password: string;  // The user's hashed password
-    verifyCode: string;  // The verification code sent to the user
+    verifyCode: string;  // The verification code sent to the user i.e the OTP
     verifyCodeExpiry: Date;  // The expiration date of the verification code
     isVerified: boolean;  // Boolean flag indicating whether the user is verified
     isAcceptingMessages: boolean;  // Flag to check if the user is accepting messages
